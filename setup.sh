@@ -12,4 +12,4 @@ DEVHOME=~/etc/server
 
 ln -s $DEVHOME/.zshrc ~/.zshrc
 ln -s $DEVHOME/.bash_profile .bash_profile
-ln -s $DEVHOME/.tmux.conf .tmux.conf
+ln -s $DEVHOME/tmux.conf .tmux.conf
