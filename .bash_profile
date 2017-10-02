@@ -4,8 +4,7 @@
 if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
-source ~/.airenv/airflow/bin/activate
-
+ 
 alias rb='. ~/.bash_profile'
 
 hl() {

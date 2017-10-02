@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/julian_qian/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 . ~/src/z/z.sh
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -53,7 +53,7 @@ plugins=(git brew npm tmux)
 
 # User configuration
 
-export PATH="/home/julian_qian/.airenv/airflow/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/nodejs/0.10/bin:/usr/local/spark-1.5.0/bin"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/nodejs/0.10/bin:/usr/local/spark-1.5.0/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
