@@ -4,6 +4,7 @@
 if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
+# why add to .bash not work?
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 export UBER_HOME=~
 

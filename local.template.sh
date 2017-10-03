@@ -1,11 +1,9 @@
 # put all your local settings here
 SHELLHOME=~/etc/server
-
-export FAVOR_SILVER_MACHINE=5
-export FAVOR_SPARK_MACHINE=2
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+export UBER_HOME=~
 
 #. $SHELLHOME/git.sh
-#. $SHELLHOME/airflow.sh
 . $SHELLHOME/linux.sh
 . $SHELLHOME/z.sh
 #source ~/.airenv/airflow/bin/activate
