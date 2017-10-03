@@ -4,7 +4,9 @@
 if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
- 
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+UBER_HOME=~
+
 alias rb='. ~/.bash_profile'
 
 hl() {
